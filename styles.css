@@ -527,9 +527,7 @@ color: black;
 }
 .plans-container--slider{
 	display: flex;
-	justify-content: center;
-	height: 330px;
-	overflow-x: scroll;
+	overflow-x: auto;
 	overscroll-behavior-x: contain;
 	scroll-snap-type: x proximity;
 
